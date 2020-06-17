@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+*/
+
+.editor textarea {
+  display: block;
+  overflow: auto;
+  width: calc(80% - 30px);
+  padding: 0;
+  height: 1000px;
+  margin: 150px;
+  border: none;
+  outline: none;
+  background: transparent;
+  line-height: 1.65;
+  font-family: Montserrat;
+  caret-color: red;
+  font-size: 14pt;
+  resize: none;
+  -webkit-transition: all .1s linear;
+  -o-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.editor {
+  height: calc(100% - 210px);
+  margin-top: 80px;
+  position: relative;
+  line-height: 1.65;
+  font-size: 14pt;
+}
+
+
+
